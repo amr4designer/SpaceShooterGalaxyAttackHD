@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1981034685478354}
+  m_IsPrefabParent: 1
+--- !u!1 &1981034685478354
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4476307604485318}
+  - component: {fileID: 114354516330135706}
+  - component: {fileID: 114128160255397254}
+  m_Layer: 0
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4476307604485318
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1981034685478354}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114128160255397254
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1981034685478354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32134035c01132944aa294115e878fe1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Layers:
+  - Backgrounds:
+    - Background: {fileID: 1282884051911892, guid: 1f1a9a1662290784e9de83f670be61fd,
+        type: 2}
+      Repeat: 1
+    - Background: {fileID: 1846734585084986, guid: c6e4c5ca400a884409c1bf7362da049d,
+        type: 2}
+      Repeat: 1
+    Speed: 1
+    OverrideScale: 0
+    Scale: {x: 0, y: 0, z: 0}
+    OverrideRotation: 0
+    BackgroundRepetition: 2
+    Dimension: {x: 0, y: 0}
+    Index: 99
+  - Backgrounds:
+    - Background: {fileID: 1386581685880568, guid: 52b16635f03ce8a4590f2972602e3a66,
+        type: 2}
+      Repeat: 1
+    - Background: {fileID: 1083194625622290, guid: 63afdc3191ccccd40b2b967eeef78c59,
+        type: 2}
+      Repeat: 1
+    Speed: 2
+    OverrideScale: 0
+    Scale: {x: 0, y: 0, z: 0}
+    OverrideRotation: 0
+    BackgroundRepetition: 2
+    Dimension: {x: 0, y: 0}
+    Index: 98
+  - Backgrounds:
+    - Background: {fileID: 1623591999949370, guid: 5d3414cfcafd5eb49a6a0dd9bf0914d3,
+        type: 2}
+      Repeat: 1
+    Speed: 3
+    OverrideScale: 0
+    Scale: {x: 0, y: 0, z: 0}
+    OverrideRotation: 0
+    BackgroundRepetition: 2
+    Dimension: {x: 0, y: 0}
+    Index: 97
+  - Backgrounds:
+    - Background: {fileID: 1387981885816406, guid: 54ffea52c9dfc47449d4010ede20bb76,
+        type: 2}
+      Repeat: 1
+    Speed: 3.5
+    OverrideScale: 0
+    Scale: {x: 0, y: 0, z: 0}
+    OverrideRotation: 0
+    BackgroundRepetition: 2
+    Dimension: {x: 0, y: 0}
+    Index: 96
+  - Backgrounds:
+    - Background: {fileID: 1167526562410474, guid: 2a17f7006e06d7f45868674e2d999fdf,
+        type: 2}
+      Repeat: 1
+    - Background: {fileID: 1424925952306448, guid: 1bbdc9c95bd3f1748be56169d97d56a6,
+        type: 2}
+      Repeat: 1
+    Speed: 4.5
+    OverrideScale: 0
+    Scale: {x: 0, y: 0, z: 0}
+    OverrideRotation: 0
+    BackgroundRepetition: 2
+    Dimension: {x: 0, y: 0}
+    Index: 95
+  - Backgrounds:
+    - Background: {fileID: 1147999639018854, guid: 01079593fc786244ba78f4f6b079c1aa,
+        type: 2}
+      Repeat: 1
+    - Background: {fileID: 1018021493330516, guid: 0f50b43ada7a3454e8c3c55630c07fd7,
+        type: 2}
+      Repeat: 1
+    - Background: {fileID: 1136739625776222, guid: f0dc187328d0b17498fec0684a7ddca0,
+        type: 2}
+      Repeat: 1
+    Speed: 6
+    OverrideScale: 0
+    Scale: {x: 0, y: 0, z: 0}
+    OverrideRotation: 0
+    BackgroundRepetition: 2
+    Dimension: {x: 0, y: 0}
+    Index: 94
+  - Backgrounds:
+    - Background: {fileID: 1869155843280828, guid: 3bfc6f76eae31cb4fad173e28c64f8f0,
+        type: 2}
+      Repeat: 1
+    Speed: 6
+    OverrideScale: 0
+    Scale: {x: 0, y: 0, z: 0}
+    OverrideRotation: 0
+    BackgroundRepetition: 2
+    Dimension: {x: 0, y: 0}
+    Index: 92
+--- !u!114 &114354516330135706
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1981034685478354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfde0f1fe07d30245be261b312dbfdcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainBackground:
+    Backgrounds:
+    - Background: {fileID: 1788416922860996, guid: 73aac4d927737cb48974869c23b71757,
+        type: 2}
+      Repeat: 1
+    Speed: 0
+    OverrideScale: 0
+    Scale: {x: 1, y: 1, z: 1}
+    OverrideRotation: 0
+    BackgroundRepetition: 2
+    Dimension: {x: 20.48, y: 10.24}
+  DrawMainBGBound: 1
+  BackgroundForGizmo:
+    serializedVersion: 2
+    x: 0
+    y: -5.12
+    width: 20.48
+    height: 10.24

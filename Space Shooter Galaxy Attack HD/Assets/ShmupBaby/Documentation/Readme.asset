@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 6756ed7b80223ac4e8f026ce27541de4, type: 3}
+  title: Shmup Baby!
+  sections:
+  - heading: What is Shmup Baby?
+    text: "Shmup Baby\u24B8 is a shoot \u2018em up game genre template, which enables
+      you to create vertical and horizontal scrolling action games."
+    linkText: 
+    url: 
+  - heading: How Do I Use It?
+    text: You can check our video tutorials linked below, the manual or to try our
+      included demos.
+    linkText: Video Tutorials Playlist
+    url: https://www.youtube.com/playlist?list=PLh5hgaVhes-glcYndel1T3DP40AjtO5Fn
+  - heading: Need Help?
+    text: The forum thread is the best place to see previous discussions and ask any
+      new questions.
+    linkText: Forum Thread
+    url: https://forum.unity.com/threads/shmup-baby.557059/
+  loadedLayout: 1

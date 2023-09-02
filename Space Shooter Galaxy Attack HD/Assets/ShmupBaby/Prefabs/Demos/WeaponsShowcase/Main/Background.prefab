@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1101305482198060}
+  m_IsPrefabParent: 1
+--- !u!1 &1101305482198060
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4327678352844484}
+  - component: {fileID: 114243314229075732}
+  - component: {fileID: 114202592243146898}
+  - component: {fileID: 114781774521443926}
+  m_Layer: 0
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4327678352844484
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1101305482198060}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114202592243146898
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1101305482198060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1d5d157726fd84cbb450acaccdaa6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Layers:
+  - UseRandomObject: 1
+    Objects:
+    - {fileID: 1830029610409182, guid: 7875ce2d569ecea40a3f113a339652f6, type: 2}
+    - {fileID: 1299352662862874, guid: 9bb315776ab467b4d8d59c40533784b6, type: 2}
+    - {fileID: 1281680929173626, guid: 134293ce3b1429f40896daaf34cdb502, type: 2}
+    - {fileID: 1234638193494722, guid: d7b5a1ae28c582a479103185eb792bcd, type: 2}
+    - {fileID: 1053558279969132, guid: 9227b7e5f8a68f14cb0118b40fbb5c98, type: 2}
+    - {fileID: 1791976154164248, guid: 63a4b098f75fde049937bc3fb7adbe77, type: 2}
+    - {fileID: 1467737104385760, guid: c3e7ebf6cd2d127488db64350ed3a1fa, type: 2}
+    - {fileID: 1710449078411402, guid: de4215f5e291f454bb8ca78624f08f54, type: 2}
+    - {fileID: 1316014326431332, guid: 42cd1a6c2d697644c97c0d45043ff3e2, type: 2}
+    - {fileID: 1767720762851252, guid: 2a016084317fc484bb510caa2bbc484e, type: 2}
+    Speed: 25
+    StartTime: 0
+    WaitTime: 1
+    RandomWaitTime: 0
+    MinRandomWaitTime: 0
+    MaxRandomWaitTime: 0
+    Loop: 1
+    Position: 0
+    RandomPosition: 1
+    rotationOption: 0
+    Rotation: {x: 0, y: 0, z: 0}
+    scaleOption: 2
+    Scale: {x: 8, y: 8, z: 8}
+    MinRandomScale: 0
+    MaxRandomScale: 0
+    ElementLifetime: 5
+    Offset: 20
+    Index: 1
+  - UseRandomObject: 1
+    Objects:
+    - {fileID: 1166415444234670, guid: e5e808b965bb1af48a3c8c6c6b2342b1, type: 2}
+    - {fileID: 1712138019365736, guid: ba70385e10a4b2243ba38b1bb5e052aa, type: 2}
+    - {fileID: 1986092263111500, guid: 968c2cc8a10d02c44b77a6ab7ebfe668, type: 2}
+    Speed: 4
+    StartTime: 0
+    WaitTime: 4
+    RandomWaitTime: 0
+    MinRandomWaitTime: 0
+    MaxRandomWaitTime: 0
+    Loop: 1
+    Position: 0
+    RandomPosition: 1
+    rotationOption: 2
+    Rotation: {x: 0, y: 0, z: 0}
+    scaleOption: 1
+    Scale: {x: 8, y: 8, z: 8}
+    MinRandomScale: 0.5
+    MaxRandomScale: 0.8
+    ElementLifetime: 120
+    Offset: 20
+    Index: 10
+--- !u!114 &114243314229075732
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1101305482198060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfde0f1fe07d30245be261b312dbfdcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainBackground:
+    Backgrounds:
+    - Background: {fileID: 1320100297288680, guid: 8e03d8f6572275b45b1fb38b0054a329,
+        type: 2}
+      Repeat: 1
+    Speed: 4
+    OverrideScale: 1
+    Scale: {x: 3, y: 3, z: 3}
+    OverrideRotation: 0
+    BackgroundRepetition: 2
+    Dimension: {x: 30.72, y: 61.44}
+  DrawMainBGBound: 1
+  BackgroundForGizmo:
+    serializedVersion: 2
+    x: -15.36
+    y: 0
+    width: 30.72
+    height: 61.44
+--- !u!114 &114781774521443926
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1101305482198060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fc2824d92f9b4a4f93f477581122707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Layers:
+  - StartTime: 0
+    Objects:
+    - LayerObject: {fileID: 1187659692358572, guid: fc858bdc553557640bff96ac8d7d1eec,
+        type: 2}
+      TimeForNextObject: 0.4
+      Position: 0
+      Scale: {x: 4, y: 4, z: 4}
+      Rotation: {x: 45, y: 0, z: 0}
+    - LayerObject: {fileID: 1187659692358572, guid: fc858bdc553557640bff96ac8d7d1eec,
+        type: 2}
+      TimeForNextObject: 0.4
+      Position: 1
+      Scale: {x: 4, y: 4, z: 4}
+      Rotation: {x: 45, y: 0, z: 0}
+    Lifetime: 20
+    Speed: 6
+    Loop: 1
+    Offset: 2
+    Index: 2

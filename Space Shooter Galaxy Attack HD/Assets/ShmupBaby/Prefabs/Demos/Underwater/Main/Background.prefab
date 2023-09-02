@@ -1,0 +1,232 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1976124745991934}
+  m_IsPrefabParent: 1
+--- !u!1 &1976124745991934
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4921220255568272}
+  - component: {fileID: 114149956445395314}
+  - component: {fileID: 114094348142735538}
+  - component: {fileID: 114323127013893304}
+  m_Layer: 0
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4921220255568272
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1976124745991934}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114094348142735538
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1976124745991934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32134035c01132944aa294115e878fe1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Layers:
+  - Backgrounds:
+    - Background: {fileID: 1261974409915530, guid: ddf2bd23d00eaeb4ebc6825ca45ab5d2,
+        type: 2}
+      Repeat: 1
+    - Background: {fileID: 1897666698165800, guid: 23616c42b9c95b547a0877b9edb3ceef,
+        type: 2}
+      Repeat: 1
+    - Background: {fileID: 1543330715960190, guid: 3779b6e430a27b94db8e0c25bdff7b96,
+        type: 2}
+      Repeat: 1
+    Speed: 0.5
+    OverrideScale: 0
+    Scale: {x: 0, y: 0, z: 0}
+    OverrideRotation: 0
+    BackgroundRepetition: 4
+    Dimension: {x: 0, y: 0}
+    Index: 99
+  - Backgrounds:
+    - Background: {fileID: 1715168536304910, guid: 3c875cdce72ec1e41b63aab9f45f9d4d,
+        type: 2}
+      Repeat: 1
+    - Background: {fileID: 1353734630329186, guid: 37c15bccffd31df4ea5d8b5df5c7feab,
+        type: 2}
+      Repeat: 1
+    - Background: {fileID: 1513394094799440, guid: 22e65a161c36c964292cbda0d8b9b1ba,
+        type: 2}
+      Repeat: 1
+    Speed: 1.5
+    OverrideScale: 0
+    Scale: {x: 0, y: 0, z: 0}
+    OverrideRotation: 0
+    BackgroundRepetition: 4
+    Dimension: {x: 0, y: 0}
+    Index: 98
+  - Backgrounds:
+    - Background: {fileID: 1369044541082078, guid: 705d7c3f5f881084198b9b78c95e283c,
+        type: 2}
+      Repeat: 1
+    - Background: {fileID: 1815389320747232, guid: 1cf2e67ecebe3e34da3c992645c965d1,
+        type: 2}
+      Repeat: 1
+    - Background: {fileID: 1156870164424886, guid: 67d754d3fcabb2b4db68053cbaac4d83,
+        type: 2}
+      Repeat: 1
+    Speed: 2.5
+    OverrideScale: 0
+    Scale: {x: 0, y: 0, z: 0}
+    OverrideRotation: 0
+    BackgroundRepetition: 4
+    Dimension: {x: 0, y: 0}
+    Index: 97
+  - Backgrounds:
+    - Background: {fileID: 1561093734010182, guid: 81367dccd04a7cc499deab9d054a5af1,
+        type: 2}
+      Repeat: 1
+    - Background: {fileID: 1000174654290440, guid: 09f5cf3510e5c0c40b29672a4feed5e0,
+        type: 2}
+      Repeat: 1
+    - Background: {fileID: 1828439232977728, guid: 43dcf7bd53f871348a53e345f0ff1ed2,
+        type: 2}
+      Repeat: 1
+    Speed: 4
+    OverrideScale: 0
+    Scale: {x: 0, y: 0, z: 0}
+    OverrideRotation: 0
+    BackgroundRepetition: 4
+    Dimension: {x: 0, y: 0}
+    Index: 96
+  - Backgrounds:
+    - Background: {fileID: 1391469311041774, guid: 8669c877e552bdc46a8ef16d9f839653,
+        type: 2}
+      Repeat: 1
+    - Background: {fileID: 1145693930549308, guid: 8290e35885ccb5f48bd94919bf6018ce,
+        type: 2}
+      Repeat: 1
+    - Background: {fileID: 1347135154596498, guid: 9cbbcb502b82e984fa81ff0258a5f99a,
+        type: 2}
+      Repeat: 1
+    Speed: 7
+    OverrideScale: 0
+    Scale: {x: 0, y: 0, z: 0}
+    OverrideRotation: 0
+    BackgroundRepetition: 4
+    Dimension: {x: 0, y: 0}
+    Index: 95
+  - Backgrounds:
+    - Background: {fileID: 1453191241752780, guid: e4884636b548a2741b23353bffd2bd7c,
+        type: 2}
+      Repeat: 1
+    Speed: 0
+    OverrideScale: 0
+    Scale: {x: 0, y: 0, z: 0}
+    OverrideRotation: 0
+    BackgroundRepetition: 4
+    Dimension: {x: 0, y: 0}
+    Index: 10
+  - Backgrounds:
+    - Background: {fileID: 1021487430332676, guid: 0505ff7a207e99840a0eb5f74b843994,
+        type: 2}
+      Repeat: 1
+    - Background: {fileID: 1718152581846112, guid: a5b7beaae2c3e764385eaa23ffb60f06,
+        type: 2}
+      Repeat: 1
+    - Background: {fileID: 1056632988485818, guid: 90ee8150e279213438a68b73d8bf1dc3,
+        type: 2}
+      Repeat: 1
+    Speed: 9
+    OverrideScale: 0
+    Scale: {x: 0, y: 0, z: 0}
+    OverrideRotation: 0
+    BackgroundRepetition: 4
+    Dimension: {x: 0, y: 0}
+    Index: 9
+--- !u!114 &114149956445395314
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1976124745991934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfde0f1fe07d30245be261b312dbfdcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainBackground:
+    Backgrounds:
+    - Background: {fileID: 1147791370018096, guid: 45a5eb26b2fdd5147b6801cc0ab91604,
+        type: 2}
+      Repeat: 0
+    Speed: 0
+    OverrideScale: 0
+    Scale: {x: 1, y: 1, z: 1}
+    OverrideRotation: 0
+    BackgroundRepetition: 2
+    Dimension: {x: 20.48, y: 10.24}
+  DrawMainBGBound: 1
+  BackgroundForGizmo:
+    serializedVersion: 2
+    x: 0
+    y: -5.12
+    width: 20.48
+    height: 10.24
+--- !u!114 &114323127013893304
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1976124745991934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1d5d157726fd84cbb450acaccdaa6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Layers:
+  - UseRandomObject: 1
+    Objects:
+    - {fileID: 1339216108387860, guid: 660dca3748c1d9345ada55b90166462c, type: 2}
+    - {fileID: 1118496577077174, guid: f186489c3c206334eaceba35a4e349c2, type: 2}
+    Speed: 6
+    StartTime: 0
+    WaitTime: 0
+    RandomWaitTime: 1
+    MinRandomWaitTime: 0.05
+    MaxRandomWaitTime: 1.5
+    Loop: 1
+    Position: 0
+    RandomPosition: 1
+    rotationOption: 0
+    Rotation: {x: 0, y: 0, z: 0}
+    scaleOption: 1
+    Scale: {x: 0, y: 0, z: 0}
+    MinRandomScale: 0.05
+    MaxRandomScale: 0.4
+    ElementLifetime: 10
+    Offset: 5
+    Index: 12

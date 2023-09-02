@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1564756478261788}
+  m_IsPrefabParent: 1
+--- !u!1 &1564756478261788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4083885459546318}
+  - component: {fileID: 114709348661495244}
+  - component: {fileID: 50186654627234368}
+  - component: {fileID: 61663681023091760}
+  - component: {fileID: 114121562746889622}
+  m_Layer: 0
+  m_Name: LevelController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4083885459546318
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1564756478261788}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &50186654627234368
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1564756478261788}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 1
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &61663681023091760
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1564756478261788}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &114121562746889622
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1564756478261788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f13f714b671b8bb45b5109c98eb0545b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RegionToUse: 0
+  InputRegion:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  Offset: 2
+  TargetLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  DrawRegion: 1
+--- !u!114 &114709348661495244
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1564756478261788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e55b9ccb5e38354e8d0538e353da135, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WaveStartTime: 1
+  PlayerFirstSpawnTime: 0
+  SpaceBetween: 10
+  GameFieldOption: 1
+  InputGameField:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  OffsetCameraBottom: 0
+  OffsetCameraTop: 1
+  OffsetCameraLeft: 0
+  OffsetCameraRight: 1
+  SpawnPosX: 0.5
+  SpawnPosY: 0.163
+  PlayerReference: 0
+  Player: {fileID: 1597340405096664, guid: 94f25fd536e0280499e93076df6ec577, type: 2}
+  PlayerLives: 3
+  PlayerSpawnDelay: 2
+  PlayerIndex: 2
+  PlayerBoundOption: 0
+  PlayerFieldBottom: 0
+  PlayerFieldTop: 1
+  PlayerFieldLeft: 0
+  PlayerFieldRight: 1
+  Waves:
+  - LayerIndex: 10
+    Wave: {fileID: 1404343901139370, guid: 8a24c8ef86202b743965a8a4e9e156ec, type: 2}
+    TimeForNextWave: 6
+  - LayerIndex: 10
+    Wave: {fileID: 1181971264789980, guid: 886a6767d9fdada4a91b80fd96923a00, type: 2}
+    TimeForNextWave: 9.5
+  - LayerIndex: 10
+    Wave: {fileID: 1412928582098398, guid: 90205eadbe97e8e448f71cd13e19424b, type: 2}
+    TimeForNextWave: 13
+  - LayerIndex: 10
+    Wave: {fileID: 1404343901139370, guid: 6690dbd80f7e087418fd693756653a6d, type: 2}
+    TimeForNextWave: 6.7
+  - LayerIndex: 10
+    Wave: {fileID: 1404343901139370, guid: 6690dbd80f7e087418fd693756653a6d, type: 2}
+    TimeForNextWave: 9
+  - LayerIndex: 10
+    Wave: {fileID: 1197088505109174, guid: 7f56f26fcc9c77246ace161125569195, type: 2}
+    TimeForNextWave: 6
+  - LayerIndex: 10
+    Wave: {fileID: 1062986519883458, guid: 7f26680a0ac910546b3439f627aa36f6, type: 2}
+    TimeForNextWave: 8
+  - LayerIndex: 10
+    Wave: {fileID: 1587744389406068, guid: acde112db9df8e645b6b7bb545382480, type: 2}
+    TimeForNextWave: 8
+  - LayerIndex: 10
+    Wave: {fileID: 1464902902210464, guid: 92ad846c8441aaa4b81dac4eb0c4c941, type: 2}
+    TimeForNextWave: 8

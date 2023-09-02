@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cee8eba36e3060d4c849ee4d61d56e81, type: 3}
+  m_Name: LightPhaserAttack
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 114118206773583960, guid: b4e9459310e791c4088cf2480e093f5d,
+    type: 2}
+  range: 6
+  disarmOnSourceDestroy: 1
+  cooldown: 2.6
+  attackMask:
+    serializedVersion: 2
+    m_Bits: 256

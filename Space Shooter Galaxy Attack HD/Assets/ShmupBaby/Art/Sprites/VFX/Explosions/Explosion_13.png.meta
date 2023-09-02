@@ -1,0 +1,610 @@
+fileFormatVersion: 2
+guid: 3f4bee1dc8116c244a9a85ebf14ecbb7
+timeCreated: 1528979009
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Explosion13_0
+    21300002: Explosion13_1
+    21300004: Explosion13_2
+    21300006: Explosion13_3
+    21300008: Explosion13_4
+    21300010: Explosion13_5
+    21300012: Explosion13_6
+    21300014: Explosion13_7
+    21300016: Explosion13_8
+    21300018: Explosion13_9
+    21300020: Explosion13_10
+    21300022: Explosion13_11
+    21300024: Explosion13_12
+    21300026: Explosion13_13
+    21300028: Explosion13_14
+    21300030: Explosion13_15
+    21300032: Explosion13_16
+    21300034: Explosion13_17
+    21300036: Explosion13_18
+    21300038: Explosion13_19
+    21300040: Explosion13_20
+    21300042: Explosion13_21
+    21300044: Explosion13_22
+    21300046: Explosion13_23
+    21300048: Explosion13_24
+    21300050: Explosion13_25
+    21300052: Explosion13_26
+    21300054: Explosion13_27
+    21300056: Explosion13_28
+    21300058: Explosion13_29
+    21300060: Explosion13_30
+    21300062: Explosion13_31
+    21300064: Explosion13_32
+    21300066: Explosion13_33
+    21300068: Explosion13_34
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Explosion13_0
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 877.7143
+        width: 170.66667
+        height: 146.28572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Explosion13_1
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 877.7143
+        width: 170.66667
+        height: 146.28572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Explosion13_2
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 877.7143
+        width: 170.66667
+        height: 146.28572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Explosion13_3
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 877.7143
+        width: 170.66667
+        height: 146.28572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Explosion13_4
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 877.7143
+        width: 170.66667
+        height: 146.28572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Explosion13_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 731.7143
+        width: 170.66667
+        height: 146.28572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Explosion13_6
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 731.7143
+        width: 170.66667
+        height: 146.28572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Explosion13_7
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 731.7143
+        width: 170.66667
+        height: 146.28572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Explosion13_8
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 731.7143
+        width: 170.66667
+        height: 146.28572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Explosion13_9
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 731.7143
+        width: 170.66667
+        height: 146.28572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Explosion13_10
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 731.7143
+        width: 170.66667
+        height: 146.28572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Explosion13_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 585.7143
+        width: 170.66667
+        height: 146.28572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Explosion13_12
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 585.7143
+        width: 170.66667
+        height: 146.28572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Explosion13_13
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 585.7143
+        width: 170.66667
+        height: 146.28572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Explosion13_14
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 585.7143
+        width: 170.66667
+        height: 146.28572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Explosion13_15
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 585.7143
+        width: 170.66667
+        height: 146.28572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Explosion13_16
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 585.7143
+        width: 170.66667
+        height: 146.28572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Explosion13_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 439.7143
+        width: 170.66667
+        height: 146.28572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Explosion13_18
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 439.7143
+        width: 170.66667
+        height: 146.28572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Explosion13_19
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 439.7143
+        width: 170.66667
+        height: 146.28572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Explosion13_20
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 439.7143
+        width: 170.66667
+        height: 146.28572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Explosion13_21
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 439.7143
+        width: 170.66667
+        height: 146.28572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Explosion13_22
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 439.7143
+        width: 170.66667
+        height: 146.28572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Explosion13_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 293.7143
+        width: 170.66667
+        height: 146.28572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Explosion13_24
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 293.7143
+        width: 170.66667
+        height: 146.28572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Explosion13_25
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 293.7143
+        width: 170.66667
+        height: 146.28572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Explosion13_26
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 293.7143
+        width: 170.66667
+        height: 146.28572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Explosion13_27
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 293.7143
+        width: 170.66667
+        height: 146.28572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Explosion13_28
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 293.7143
+        width: 170.66667
+        height: 146.28572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Explosion13_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 147.71428
+        width: 170.66667
+        height: 146.28572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Explosion13_30
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 147.71428
+        width: 170.66667
+        height: 146.28572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Explosion13_31
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 147.71428
+        width: 170.66667
+        height: 146.28572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Explosion13_32
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 147.71428
+        width: 170.66667
+        height: 146.28572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Explosion13_33
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 147.71428
+        width: 170.66667
+        height: 146.28572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Explosion13_34
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 147.71428
+        width: 170.66667
+        height: 146.28572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

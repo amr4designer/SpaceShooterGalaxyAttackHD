@@ -1,0 +1,5 @@
+This scene was used to capture footage used in our trailer.
+
+To test the different player weapons, just enable or disable the weapons nested under the player.
+
+Thank you for using Shmup Baby!

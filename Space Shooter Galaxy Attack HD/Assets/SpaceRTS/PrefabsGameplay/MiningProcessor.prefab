@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1820781801416534}
+  m_IsPrefabParent: 1
+--- !u!1 &1820781801416534
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4568432426390116}
+  - component: {fileID: 114599983400185114}
+  - component: {fileID: 114511278592004586}
+  - component: {fileID: 114464457923951936}
+  - component: {fileID: 114133757670781970}
+  - component: {fileID: 114196011103245234}
+  - component: {fileID: 114651985050399288}
+  - component: {fileID: 114925196830912094}
+  - component: {fileID: 114470209585092512}
+  m_Layer: 0
+  m_Name: MiningProcessor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4568432426390116
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1820781801416534}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 51.01, y: 0, z: -6.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114133757670781970
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1820781801416534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -294127496, guid: aa5409bbc303ea749a6de29b726dd9b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  helpText: 
+  selectionCollider:
+    refname: selectable
+    cache: {fileID: 0}
+    refType: 1
+  isSelected: 0
+  isHighlighted: 0
+  isHovered: 0
+--- !u!114 &114196011103245234
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1820781801416534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88f7508bb76ec3c4b8d568b720a15c2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  helpText: 
+  selectionMarker:
+    refname: select_marker
+    cache: {fileID: 0}
+    refType: 1
+  selectedColor: {r: 0.33899224, g: 0.83823526, b: 0.6109937, a: 0.478}
+  highlightedColor: {r: 1, g: 0.97748476, b: 0.18382353, a: 0.209}
+--- !u!114 &114464457923951936
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1820781801416534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 493471a24cd07894cbf7aae75aaafdcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  helpText: 
+--- !u!114 &114470209585092512
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1820781801416534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5cd2739e06a8874a94e6bfb3f590bdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  helpText: 
+  spawnParking:
+    refname: mining_parking
+    cache: {fileID: 0}
+    refType: 1
+  spawnQueue:
+  - {fileID: 11400000, guid: e7e7843abada7134ebfdb21097a7e998, type: 2}
+  firstBurstTime: 0
+  burstRepeatCount: 1
+  spawnInterval: 1
+--- !u!114 &114511278592004586
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1820781801416534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -733394863, guid: aa5409bbc303ea749a6de29b726dd9b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  helpText: 
+  initialOwner: {fileID: 0}
+--- !u!114 &114599983400185114
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1820781801416534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -8340695, guid: aa5409bbc303ea749a6de29b726dd9b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visualModule: {fileID: 0}
+--- !u!114 &114651985050399288
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1820781801416534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2947f1bda0f0c284695055aed32e79b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entries: []
+--- !u!114 &114925196830912094
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1820781801416534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d47f4a7a0b1390146a02124dcfdc6c6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  helpText: 
+  storageSource: 0
+  parking:
+    refname: mining_parking
+    cache: {fileID: 0}
+    refType: 1
+  extractable:
+    mask: 0
+  insertable:
+    mask: 1

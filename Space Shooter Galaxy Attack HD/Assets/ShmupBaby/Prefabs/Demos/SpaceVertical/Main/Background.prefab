@@ -1,0 +1,198 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1826700276393310}
+  m_IsPrefabParent: 1
+--- !u!1 &1826700276393310
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4111149142698412}
+  - component: {fileID: 114349646740185626}
+  - component: {fileID: 114128900991913904}
+  - component: {fileID: 114139876372323514}
+  m_Layer: 0
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4111149142698412
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1826700276393310}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114128900991913904
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1826700276393310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1d5d157726fd84cbb450acaccdaa6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Layers:
+  - UseRandomObject: 1
+    Objects:
+    - {fileID: 1712138019365736, guid: ba70385e10a4b2243ba38b1bb5e052aa, type: 2}
+    - {fileID: 1986092263111500, guid: 968c2cc8a10d02c44b77a6ab7ebfe668, type: 2}
+    - {fileID: 1166415444234670, guid: e5e808b965bb1af48a3c8c6c6b2342b1, type: 2}
+    - {fileID: 1981204619603492, guid: df7148c67b0e5e74caa2212db151c982, type: 2}
+    - {fileID: 1853775650339826, guid: 6a42b9a1ff16edd44ad3338d530b8209, type: 2}
+    - {fileID: 1893760537178570, guid: 44a31e02d10764e419d1a791aafb3c29, type: 2}
+    - {fileID: 1991012130325646, guid: 2d80bb6072f68244a8944800a1f1f1f3, type: 2}
+    - {fileID: 1155683192918188, guid: 8e44f11a5d7cbd049a252854f79e2401, type: 2}
+    - {fileID: 1206663962396530, guid: f342d03f05dc72c44bf26c94bc4c8462, type: 2}
+    - {fileID: 1007224889983574, guid: 12d9262b8c9467d49a74518a26240f12, type: 2}
+    - {fileID: 1566521495022358, guid: 2a8319d5f15333d48af86e4758491c0f, type: 2}
+    - {fileID: 1271221394234690, guid: c0229638a0e9a034591c04dddebf2e59, type: 2}
+    - {fileID: 1472201750502146, guid: d59de5d728ad92e41b87e095ac571c0b, type: 2}
+    - {fileID: 1626369106178416, guid: 7589e511e006f144382899336bd53e0c, type: 2}
+    Speed: 4
+    StartTime: 7
+    WaitTime: 5
+    RandomWaitTime: 1
+    MinRandomWaitTime: 1
+    MaxRandomWaitTime: 4
+    Loop: 1
+    Position: 0
+    RandomPosition: 1
+    rotationOption: 2
+    Rotation: {x: 0, y: 0, z: 0}
+    scaleOption: 1
+    Scale: {x: 0, y: 0, z: 0}
+    MinRandomScale: 0.1
+    MaxRandomScale: 0.4
+    ElementLifetime: 30
+    Offset: 5
+    Index: 75
+  - UseRandomObject: 0
+    Objects:
+    - {fileID: 1920515734463126, guid: 4cb0305b5273b6b4a90c5abadecb3111, type: 2}
+    - {fileID: 1099077811400824, guid: 5de238d891d4c0046a77abe5ee2b1097, type: 2}
+    - {fileID: 1400013988446466, guid: 121cd466608300948891dedd4dd2191a, type: 2}
+    - {fileID: 1878619747653060, guid: 6f8e079f703f04440b9fa710d589bf04, type: 2}
+    - {fileID: 1627330111602526, guid: 5cfcb96afeb26574fbc2a082dc2534c1, type: 2}
+    - {fileID: 1173164509135420, guid: f8930cde586ce3742a430c5a8ab093b5, type: 2}
+    - {fileID: 1004789751521364, guid: b1d2d3d2d6707144d842b562f840a83c, type: 2}
+    - {fileID: 1938210780526030, guid: 8691772b79b631445be165214b079793, type: 2}
+    - {fileID: 1682431162035330, guid: 94d7d635785323841adaa3081b3be101, type: 2}
+    - {fileID: 1468797306049296, guid: c184d3862949f5848abe54d6ab94f1c2, type: 2}
+    Speed: 6
+    StartTime: 7
+    WaitTime: 5
+    RandomWaitTime: 1
+    MinRandomWaitTime: 0.5
+    MaxRandomWaitTime: 5
+    Loop: 1
+    Position: 0
+    RandomPosition: 1
+    rotationOption: 1
+    Rotation: {x: 0, y: 0, z: 0}
+    scaleOption: 1
+    Scale: {x: 0, y: 0, z: 0}
+    MinRandomScale: 1
+    MaxRandomScale: 5
+    ElementLifetime: 20
+    Offset: 20
+    Index: 74
+--- !u!114 &114139876372323514
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1826700276393310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fc2824d92f9b4a4f93f477581122707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Layers:
+  - StartTime: 45
+    Objects:
+    - LayerObject: {fileID: 1587702167193352, guid: d944a219c4fe75c41981be9c916c2982,
+        type: 2}
+      TimeForNextObject: 0
+      Position: 0.662
+      Scale: {x: 0.6, y: 0.6, z: 0.6}
+      Rotation: {x: 50, y: 50, z: 0}
+    Lifetime: 60
+    Speed: 2
+    Loop: 0
+    Offset: 5
+    Index: 80
+--- !u!114 &114349646740185626
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1826700276393310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfde0f1fe07d30245be261b312dbfdcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainBackground:
+    Backgrounds:
+    - Background: {fileID: 1755763823867472, guid: 4554037342a433444b87851923c170dc,
+        type: 2}
+      Repeat: 1
+    - Background: {fileID: 1022083113720758, guid: 9583d5a13e0a8224c8fbd4c42135a162,
+        type: 2}
+      Repeat: 1
+    - Background: {fileID: 1817847399363010, guid: f2fca10cde8a7b04ba2e1533b85312e0,
+        type: 2}
+      Repeat: 4
+    - Background: {fileID: 1624641485850020, guid: aada2afea6778bb4ba369580032a337c,
+        type: 2}
+      Repeat: 1
+    - Background: {fileID: 1020244741830180, guid: 5d319d9df081a4e469c10e6c88165cf7,
+        type: 2}
+      Repeat: 3
+    - Background: {fileID: 1781443386480688, guid: 85ba84defec3a2441bf30491af3806b6,
+        type: 2}
+      Repeat: 1
+    - Background: {fileID: 1299673666903228, guid: d28126ec58ccb0a4daf22e3998ff26a0,
+        type: 2}
+      Repeat: 4
+    - Background: {fileID: 1093982199723510, guid: 94dfda1638c780042abd898c576f23e7,
+        type: 2}
+      Repeat: 1
+    - Background: {fileID: 1817847399363010, guid: f2fca10cde8a7b04ba2e1533b85312e0,
+        type: 2}
+      Repeat: 200
+    Speed: 4
+    OverrideScale: 0
+    Scale: {x: 1, y: 1, z: 1}
+    OverrideRotation: 0
+    BackgroundRepetition: 4
+    Dimension: {x: 10.24, y: 20.48}
+  DrawMainBGBound: 1
+  BackgroundForGizmo:
+    serializedVersion: 2
+    x: -5.12
+    y: 0
+    width: 10.24
+    height: 20.48

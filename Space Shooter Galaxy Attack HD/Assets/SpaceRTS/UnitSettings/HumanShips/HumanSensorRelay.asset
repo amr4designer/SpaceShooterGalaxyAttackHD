@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ccf16860e1705d4f804f446334b62cc, type: 3}
+  m_Name: HumanSensorRelay
+  m_EditorClassIdentifier: 
+  userName: SensorRelay
+  buildPoints: 40
+  gameplayPrefab: {fileID: 1338012028150034, guid: 494c15d7c9bf92843b501b35e1302d9d,
+    type: 2}
+  visualPrefab: {fileID: 1370372364407356, guid: 46632378f9f976648ab0d6bc700338da,
+    type: 2}
+  placementPrefab: {fileID: 1132358727488160, guid: df64cd6ed2af6f6439caf42d44ee7071,
+    type: 2}
+  radius: 1
+  resourceRequirement: []
+  uiImage: {fileID: 0}
+  staticBuildables: []
+  mobileBuildables: []
+  buildRate: 1
+  loadingRate: 1
+  unloadingRate: 1
+  attacks: []
+  damageResistance: 240

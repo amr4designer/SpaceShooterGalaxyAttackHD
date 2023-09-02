@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1939835364649910}
+  m_IsPrefabParent: 1
+--- !u!1 &1939835364649910
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4760299839224348}
+  - component: {fileID: 114067762057596164}
+  m_Layer: 0
+  m_Name: WaveCurve_ZigZag
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4760299839224348
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1939835364649910}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114067762057596164
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1939835364649910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eee97cb7cc95e548979e902b9f3047c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowLabel: 1
+  UsePositionHandle: 0
+  UseCircleHandle: 1
+  HandleSize: 0.5
+  Number: 6
+  enemy: {fileID: 1611992980617662, guid: c69e2a2ac1c48fb4abe738f6c7d61cf1, type: 2}
+  TimeBetween: 0.4
+  Speed: 5
+  Loop: 0
+  FollowPath: 1
+  Points:
+  - {x: -0.8837225, y: 21.431738}
+  - {x: -2.40758, y: 17.787224}
+  - {x: 3.3798149, y: 14.743306}
+  - {x: -3.4265637, y: 12.595469}
+  - {x: 4.096802, y: 7.9760656}
+  - {x: -3.2389429, y: 4.562762}
+  - {x: 1.8956857, y: -2.1384764}
+  Smooth: 0.38
+  FirstPointSnap: 0
+  LastPointSnap: 0
+  Offset: 0
+  SampleNumber: 30
+  DrawPath: 1

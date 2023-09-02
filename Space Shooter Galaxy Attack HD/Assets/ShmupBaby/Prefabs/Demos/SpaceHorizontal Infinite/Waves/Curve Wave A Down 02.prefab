@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1773007982712858}
+  m_IsPrefabParent: 1
+--- !u!1 &1773007982712858
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4777098628541950}
+  - component: {fileID: 114167374556987202}
+  m_Layer: 0
+  m_Name: Curve Wave A Down 02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4777098628541950
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1773007982712858}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114167374556987202
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1773007982712858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eee97cb7cc95e548979e902b9f3047c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowLabel: 1
+  UsePositionHandle: 0
+  UseCircleHandle: 1
+  HandleSize: 0.5
+  Number: 10
+  enemy: {fileID: 1756493055613804, guid: 5c4e35673c534554ca391f8a34e8cabf, type: 2}
+  TimeBetween: 0.5
+  Speed: 10
+  Loop: 0
+  FollowPath: 1
+  Points:
+  - {x: 40.721, y: -11.655836}
+  - {x: 22.119452, y: -6.031305}
+  - {x: -1.8630486, y: 12.528263}
+  Smooth: 0.5
+  FirstPointSnap: 8
+  LastPointSnap: 4
+  Offset: 2
+  SampleNumber: 30
+  DrawPath: 1

@@ -1,0 +1,362 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1158688084245510}
+  m_IsPrefabParent: 1
+--- !u!1 &1158688084245510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4974521671685022}
+  - component: {fileID: 114643707848342504}
+  - component: {fileID: 114166721199323752}
+  - component: {fileID: 50109811317018942}
+  - component: {fileID: 61123038422934476}
+  m_Layer: 0
+  m_Name: LevelController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4974521671685022
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1158688084245510}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &50109811317018942
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1158688084245510}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &61123038422934476
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1158688084245510}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &114166721199323752
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1158688084245510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f13f714b671b8bb45b5109c98eb0545b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RegionToUse: 0
+  InputRegion:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  Offset: 2
+  TargetLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  DrawRegion: 1
+--- !u!114 &114643707848342504
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1158688084245510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a5a6450028ce7a42bccc52a9e008d83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WaveStartTime: 0
+  PlayerFirstSpawnTime: 0
+  SpaceBetween: 10
+  GameFieldOption: 0
+  InputGameField:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  OffsetCameraBottom: 0
+  OffsetCameraTop: 1
+  OffsetCameraLeft: 0
+  OffsetCameraRight: 1
+  SpawnPosX: 0.5
+  SpawnPosY: 0.173
+  PlayerReference: 0
+  PlayerInput: 0
+  Player: {fileID: 1283375486955792, guid: 154c4814820fd9d45a44a79ee0e12256, type: 2}
+  PlayerLives: 4
+  PlayerSpawnDelay: 2
+  PlayerIndex: 1
+  PlayerBoundOption: 0
+  PlayerFieldBottom: 0
+  PlayerFieldTop: 1
+  PlayerFieldLeft: 0
+  PlayerFieldRight: 1
+  TimeBetweenLevels: 4
+  Streams:
+  - Waves:
+    - LayerIndex: 10
+      Wave: {fileID: 1718329542452242, guid: b59b0892540e4ce4d856080c3b7b04ff, type: 2}
+      TimeForNextWave: 4
+    - LayerIndex: 10
+      Wave: {fileID: 0}
+      TimeForNextWave: 5
+    WavesUpgrade:
+      EnemyNumber:
+        Amount: 2
+        Percentage: 0
+      EnableEnemyUpgrade: 0
+      Health:
+        Amount: 0
+        Percentage: 0
+      Shield:
+        Amount: 0
+        Percentage: 0
+      PointGiven:
+        Amount: 0
+        Percentage: 0
+      CollisionDamage:
+        Amount: 0
+        Percentage: 0
+      EnableMoverUpgrade: 1
+      Speed:
+        Amount: 0
+        Percentage: 100
+      EnableWeaponUpgrade: 0
+      ShotSpeed:
+        Amount: 0
+        Percentage: 0
+      Damage:
+        Amount: 0
+        Percentage: 0
+      Rate:
+        Amount: 0
+        Percentage: 0
+      SpawnNumber: 0
+    StartLevel: 1
+    EndLevel: 2
+    EveryNthLevel: 1
+    State: 0
+  - Waves:
+    - LayerIndex: 10
+      Wave: {fileID: 1109772110570744, guid: dc3e960112a229c47ad2186618b2bcbd, type: 2}
+      TimeForNextWave: 7
+    WavesUpgrade:
+      EnemyNumber:
+        Amount: 0
+        Percentage: 0
+      EnableEnemyUpgrade: 0
+      Health:
+        Amount: 0
+        Percentage: 0
+      Shield:
+        Amount: 0
+        Percentage: 0
+      PointGiven:
+        Amount: 0
+        Percentage: 0
+      CollisionDamage:
+        Amount: 0
+        Percentage: 0
+      EnableMoverUpgrade: 0
+      Speed:
+        Amount: 0
+        Percentage: 0
+      EnableWeaponUpgrade: 0
+      ShotSpeed:
+        Amount: 0
+        Percentage: 0
+      Damage:
+        Amount: 0
+        Percentage: 0
+      Rate:
+        Amount: 0
+        Percentage: 0
+      SpawnNumber: 0
+    StartLevel: 3
+    EndLevel: 3
+    EveryNthLevel: 1
+    State: 0
+  - Waves:
+    - LayerIndex: 10
+      Wave: {fileID: 1445941619344764, guid: b578f8e91d6f2be49b409d2d876f9c70, type: 2}
+      TimeForNextWave: 10
+    - LayerIndex: 10
+      Wave: {fileID: 1909238046298662, guid: 9381299b16f85404382616cdc984ea1a, type: 2}
+      TimeForNextWave: 17
+    WavesUpgrade:
+      EnemyNumber:
+        Amount: 0
+        Percentage: 50
+      EnableEnemyUpgrade: 1
+      Health:
+        Amount: 2
+        Percentage: 0
+      Shield:
+        Amount: 0
+        Percentage: 0
+      PointGiven:
+        Amount: 1
+        Percentage: 0
+      CollisionDamage:
+        Amount: 2
+        Percentage: 0
+      EnableMoverUpgrade: 0
+      Speed:
+        Amount: 0
+        Percentage: 0
+      EnableWeaponUpgrade: 1
+      ShotSpeed:
+        Amount: 0
+        Percentage: 25
+      Damage:
+        Amount: 0
+        Percentage: 25
+      Rate:
+        Amount: 0
+        Percentage: 25
+      SpawnNumber: 0
+    StartLevel: 4
+    EndLevel: 0
+    EveryNthLevel: 2
+    State: 0
+  - Waves:
+    - LayerIndex: 10
+      Wave: {fileID: 1854658605602116, guid: 66cd6c281b9b9854486fc0b60f1f71ce, type: 2}
+      TimeForNextWave: 10
+    - LayerIndex: 10
+      Wave: {fileID: 1909238046298662, guid: 9381299b16f85404382616cdc984ea1a, type: 2}
+      TimeForNextWave: 17
+    WavesUpgrade:
+      EnemyNumber:
+        Amount: 0
+        Percentage: 50
+      EnableEnemyUpgrade: 1
+      Health:
+        Amount: 2
+        Percentage: 0
+      Shield:
+        Amount: 0
+        Percentage: 0
+      PointGiven:
+        Amount: 1
+        Percentage: 0
+      CollisionDamage:
+        Amount: 2
+        Percentage: 0
+      EnableMoverUpgrade: 0
+      Speed:
+        Amount: 0
+        Percentage: 15
+      EnableWeaponUpgrade: 1
+      ShotSpeed:
+        Amount: 0
+        Percentage: 25
+      Damage:
+        Amount: 0
+        Percentage: 25
+      Rate:
+        Amount: 0
+        Percentage: 25
+      SpawnNumber: 0
+    StartLevel: 5
+    EndLevel: 0
+    EveryNthLevel: 2
+    State: 0
+  - Waves:
+    - LayerIndex: 10
+      Wave: {fileID: 1914701624619598, guid: 43a6f6b9d2f991d4b811ea3526ac5a51, type: 2}
+      TimeForNextWave: 20
+    WavesUpgrade:
+      EnemyNumber:
+        Amount: 0
+        Percentage: 50
+      EnableEnemyUpgrade: 1
+      Health:
+        Amount: 2
+        Percentage: 0
+      Shield:
+        Amount: 0
+        Percentage: 0
+      PointGiven:
+        Amount: 1
+        Percentage: 0
+      CollisionDamage:
+        Amount: 2
+        Percentage: 0
+      EnableMoverUpgrade: 0
+      Speed:
+        Amount: 0
+        Percentage: 15
+      EnableWeaponUpgrade: 1
+      ShotSpeed:
+        Amount: 0
+        Percentage: 25
+      Damage:
+        Amount: 0
+        Percentage: 25
+      Rate:
+        Amount: 0
+        Percentage: 25
+      SpawnNumber: 0
+    StartLevel: 7
+    EndLevel: 0
+    EveryNthLevel: 5
+    State: 0

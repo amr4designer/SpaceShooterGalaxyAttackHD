@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ccf16860e1705d4f804f446334b62cc, type: 3}
+  m_Name: HumanMiningProcesor
+  m_EditorClassIdentifier: 
+  userName: Mining Processor
+  buildPoints: 24
+  gameplayPrefab: {fileID: 1820781801416534, guid: fcf6ca0e65056b74bb1f45ea5cb66019,
+    type: 2}
+  visualPrefab: {fileID: 1238806759904630, guid: 6173526e829a4ea419a0b0b566500162,
+    type: 2}
+  placementPrefab: {fileID: 1371157839277134, guid: 74ddf0961081de548899cf4af465bcfc,
+    type: 2}
+  radius: 3.2
+  resourceRequirement:
+  - action: 0
+    resourceID:
+      id: 0
+    amount: 1000
+  - action: 0
+    resourceID:
+      id: 1
+    amount: 400
+  uiImage: {fileID: 21300000, guid: e07a60f067e9f114a84499936fc521eb, type: 3}
+  staticBuildables: []
+  mobileBuildables: []
+  buildRate: 1
+  loadingRate: 1
+  unloadingRate: 1
+  attacks: []
+  damageResistance: 460
